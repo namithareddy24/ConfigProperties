@@ -9,7 +9,10 @@ spring:
     password: Namitha@9
     url: jdbc:mysql://localhost:3306/ecomm_app
     
-
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 management:
   endpoints:
     web:
