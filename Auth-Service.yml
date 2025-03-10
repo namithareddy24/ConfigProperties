@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Namitha_Auth_Service
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecomm_app
+    username: root 
+    password: Namitha@9
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
+
